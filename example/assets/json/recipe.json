@@ -1,0 +1,180 @@
+{
+    
+    "type": "Container",
+    "child": {
+      "type": "Stack",
+      "children": [
+        {
+          "type": "Container",
+          "decoration": {
+            "image": "https://images.unsplash.com/photo-1601315379734-425a469078de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2969&q=80"
+          }
+        },
+        {
+          "type": "Container",
+          "margin": "0,400,0,0",
+          "padding": "35,50,35,10",
+          "decoration": {
+            "borderRadius": "15",
+            "themeColor": "onBackground"
+          },
+          "child": {
+            "type": "ListView",
+            "children": [
+              {
+                "type": "Row",
+                "mainAxisAlignment": "spaceBetween",
+                "crossAxisAlignment": "center",
+                "children": [
+                  {
+                    "type": "Text",
+                    "data": "Lasagna",
+                    "maxLines": 3,
+                    "overflow": "ellipsis",
+                    "style": {
+                      "fontSize": "18.s",
+                      "themeColor": "onSurface",
+                      "fontWeight": "w700"
+                    }
+                  },
+                  {
+                    "type": "Row",
+                    "mainAxisAlignment": "spaceBetween",
+                    "crossAxisAlignment": "center",
+                    "children": [
+                      {
+                        "type": "Icon",
+                        "data": "star",
+                        "color": "#D5AB55"
+                      },
+                      {
+                        "type": "Text",
+                        "data": "4.5",
+                        "maxLines": 3,
+                        "overflow": "ellipsis",
+                        "style": {
+                          "fontSize": "14.s",
+                          "themeColor": "onSurface",
+                          "fontWeight": "w500"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "mainAxisAlignment": "start",
+                "crossAxisAlignment": "center",
+                "children": [
+                {
+                        "type": "Container",
+                        "margin": "0,10,5,10",
+                        "padding": "0,0,5,0",
+                        "child": 
+                 
+                    {
+                    "type": "Row",
+                    "mainAxisAlignment": "spaceAround",
+                    "crossAxisAlignment": "center",
+                    "children": [
+                      {
+                        "type": "Icon",
+                        "data": "timer",
+                        "themeColor": "onSurface"
+                      },
+                      {
+                        "type":"SizedBox",
+                        "width":"3"
+                      },
+                      {
+                        "type": "Text",
+                        "data": "10 min",
+                        "maxLines": 3,
+                        "overflow": "ellipsis",
+                        "style": {
+                          "fontSize": "14.s",
+                        
+                          "color": "8D8D8D",
+                          "fontWeight": "w500"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                    "type": "Container",
+                    "margin": "0,10,0,10",
+                    "padding": "0,0,0,0",
+                    "child": 
+             
+                {
+                "type": "Row",
+                "mainAxisAlignment": "spaceBetween",
+                "crossAxisAlignment": "center",
+                "children": [
+                  {
+                    "type": "Icon",
+                    "data": "insert_chart",
+                    "themeColor": "onSurface"
+                  },
+                  {
+                    "type":"SizedBox",
+                    "width":"3"
+                  },
+                  {
+                    "type": "Text",
+                    "data": "Medium",
+                    "maxLines": 3,
+                    "overflow": "ellipsis",
+                    "style": {
+                      "fontSize": "14.s",
+                    
+                      "color": "8D8D8D",
+                      "fontWeight": "w500"
+                    }
+                  }
+                ]
+              }
+            }
+            
+
+                ]
+              },
+              {
+                "type":"SizedBox",
+                "height":"40"
+              },
+            {
+                "type": "Text",
+                "data": "Description",
+                "maxLines": 3,
+                "overflow": "ellipsis",
+                "style": {
+                  "fontSize": "18.s",
+                  "themeColor": "onSurface",
+                  "fontWeight": "w700"
+                }
+            },
+
+            {
+                "type":"SizedBox",
+                "height":"20"
+              },
+            {
+                "type": "Text",
+                "data": "Lasagna is a wide, flat sheet of pasta. Lasagna can refer to either the type of noodle or to the typical lasagna dish which is a dish made with several layers of lasagna sheets with sauce and other ingredients, such as meats and cheese, in between the lasagna noodles.",
+                "maxLines": 3,
+                "overflow": "ellipsis",
+                "style": {
+                  "fontSize": "14.s",
+                  "themeColor": "onSurface",
+                  "fontWeight": "w400"
+                }
+            }
+            ]
+          }
+        }
+      ]
+    }
+  }

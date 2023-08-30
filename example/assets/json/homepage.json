@@ -1,0 +1,183 @@
+{
+
+    "app":{
+        "theme":"dark"
+    },
+    
+      "type": "ListView",
+      "scrollDirection": "vertical",
+      "padding" : "10,0,10,0",
+      "children": [
+        {
+          "type": "Header",
+          "username": "Anne",
+          "text": "What would we cook today?",
+          "profile_image": "assets/images/profile_image.png"
+        },
+     
+        {
+          "type": "Container",
+          "width": "80.w",
+          "height": "6.h",
+          "padding": "15,0,15,0",
+          "child": {
+            "type": "Search",
+            "key": "search_recipes"
+          }
+        },
+        {
+            "type": "Carousel",
+            "scrollDirection": "horizontal",
+            "title":"Recommendation",
+            "widgets": [
+              {
+                "type": "Banner",
+                "image": "https://images.unsplash.com/photo-1601315379734-425a469078de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2969&q=80",
+                "header_text": "New Recipe",
+                "footer_text": "Cook Lasagna",
+                "footer_icon": true
+              },
+              {
+                "type": "Banner",
+                "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2953&q=80",
+                "header_text": "New Recipe",
+                "footer_text": "Cook Guacomole",
+                "footer_icon": true
+              },
+              {
+                "type": "Banner",
+                "color": "#2EA270",
+                "header_text": "Meal Planner",
+                "footer_text": "Plan your meals now",
+                "footer_icon": false,
+                "borderRadius":"30"
+
+              }
+            ]
+          },
+        {
+            "type":"Horizontal_Lists",
+            "title":"Categories",
+            "widgets": [
+                {
+                 "type": "CircularItem",
+                  "text": "Breakfast",
+                  "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/breakfast.png?alt=media&token=db70db25-c909-408d-a8f7-61baed42bbf6"
+                },
+                {
+                 "type": "CircularItem",
+                  "text": "Lunch",
+                  "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/lunch.png?alt=media&token=75f5423f-dd7a-4344-a62f-098e0de49c5a"
+                },
+                {
+                  "type": "CircularItem",
+                  "text": "Dinner",
+                  "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/dinner.png?alt=media&token=c9f6de75-aaff-4369-aecf-1feefcbe2348"
+                },
+                {
+                 "type": "CircularItem",
+                  "text": "Vegan",
+                  "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/vegan.png?alt=media&token=caf2a6f9-e992-4c7d-91aa-a35ec1643b5d"
+                },
+                {
+                 "type": "CircularItem",
+                  "text": "Meat Based",
+                  "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/meat_based.png?alt=media&token=7bb2c486-defa-453a-80cf-d3b5b7dcad06"
+                },
+                {
+                  "type": "CircularItem",
+                  "text": "Salads",
+                  "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/salad.png?alt=media&token=87d89340-74ac-4639-955a-e41c7c8be6d9"
+                }
+              ]
+            
+        },
+        {
+            "type":"Horizontal_Lists",
+            "title":"Cuisines",
+            "widgets": [
+                {
+                    "type": "BoxItem",
+                    "text": "Indian",
+                    "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/indian.png?alt=media&token=ef7df193-d97c-41eb-b94b-1a9aa4968b11"
+                  },
+                  {
+                   "type": "BoxItem",
+                    "text": "American",
+                    "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/american.png?alt=media&token=3c0ba8d4-babb-4358-a069-d7972c07ed6b"
+                  },
+                  {
+                   "type": "BoxItem",
+                    "text": "Italian",
+                    "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/italian.png?alt=media&token=6b7fb5dc-4f0f-4815-adb6-fbea47154d0b"
+                  },
+                  {
+                    "type": "BoxItem",
+                    "text": "Mexican",
+                    "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/mexican.png?alt=media&token=7c030283-053e-4966-b14c-8b9f6b62a561"
+                  },
+                  {
+                   "type": "BoxItem",
+                    "text": "Chinese",
+                    "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/chinese.png?alt=media&token=8f680327-08be-414a-8879-bb7c2b7161fd"
+                  },
+                  {
+                   "type": "BoxItem",
+                    "text": "French",
+                    "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/french.png?alt=media&token=d43e8335-0b74-4b0d-b50b-ee4132e2e3c5"
+                  },
+                  {
+                    "type": "BoxItem",
+                    "text": "Vietnamese",
+                    "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/vietnamese.png?alt=media&token=d18ca78f-b9a9-43b3-867b-90dac7b76652"
+                  }
+                  
+              ]
+            
+        },
+        {
+            "type":"Horizontal_Lists",
+            "title":"Recently Searched",
+            "widgets": [
+                {
+                    "type": "BoxItem",
+                    "text": "Indian",
+                    "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/indian.png?alt=media&token=ef7df193-d97c-41eb-b94b-1a9aa4968b11"
+                  },
+                  {
+                    "type": "CircularItem",
+                    "text": "Dinner",
+                    "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/dinner.png?alt=media&token=c9f6de75-aaff-4369-aecf-1feefcbe2348"
+                  },
+                  {
+                   "type": "BoxItem",
+                    "text": "Italian",
+                    "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/italian.png?alt=media&token=6b7fb5dc-4f0f-4815-adb6-fbea47154d0b"
+                  },
+                  {
+                    "type": "BoxItem",
+                    "text": "Mexican",
+                    "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/mexican.png?alt=media&token=7c030283-053e-4966-b14c-8b9f6b62a561"
+                  },
+                  {
+                    "type": "CircularItem",
+                     "text": "Vegan",
+                     "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/vegan.png?alt=media&token=caf2a6f9-e992-4c7d-91aa-a35ec1643b5d"
+                   },
+                   {
+                    "type": "CircularItem",
+                     "text": "Meat Based",
+                     "image":"https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/meat_based.png?alt=media&token=7bb2c486-defa-453a-80cf-d3b5b7dcad06"
+                   }
+                 
+                  
+              ]
+            
+        }
+        
+        
+      ]
+    
+}
+
+  
