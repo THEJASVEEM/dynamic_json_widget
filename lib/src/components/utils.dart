@@ -639,11 +639,12 @@ Map<String, dynamic> parseHorizontalList(Map<String, dynamic> map) {
   var circularItemMap = jsonDecode(CustomSchemas.horizontalItemsJson);
   if (map.isNotEmpty) {
     if (map.containsKey('title')) {
-      circularItemMap['children'][0]['child']['children'][0]['data'] =
+      circularItemMap['child']['children'][0]['child']['children'][0]['data'] =
           map['title'];
     }
     if (map.containsKey('widgets')) {
-      circularItemMap['children'][1]['child']['children'] = map['widgets'];
+      circularItemMap['child']['children'][1]['child']['children'] =
+          map['widgets'];
     }
   }
   return circularItemMap;

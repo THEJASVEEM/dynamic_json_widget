@@ -125,87 +125,98 @@ class CustomSchemas {
 }''';
   static const horizontalItemsJson = '''
     {
-  "type": "Column",
-   "mainAxisAlignment": "start",
-        "crossAxisAlignment": "start",
-  "children": [
-    {
-      "type": "Container",
-      "color": "#FFFFFF",
-      "height": "3.h",
-      "alignment": "left",
-      "margin": "15,5,15,0",
-      "child": {
-        "type": "Row",
-        "mainAxisAlignment": "spaceBetween",
-        "crossAxisAlignment": "center",
-        "children": [
-          {
-            "type": "Text",
-            "data": "Categories",
-            "maxLines": 3,
-            "overflow": "ellipsis",
-            "style": {
-              "fontSize": "16.s",
-              "fontWeight": "w800"
+
+    "type": "Container",
+        "color": "#FFFFFF",
+        "height": "21.h",
+        "alignment": "left",    
+    "child":{
+    "type": "Column",
+     "mainAxisAlignment": "start",
+          "crossAxisAlignment": "start",
+    "children": [
+      {
+        "type": "Container",
+        "color": "#FFFFFF",
+        "height": "3.h",
+        "alignment": "left",
+        "margin": "15,5,15,0",
+        "child": {
+          "type": "Row",
+          "mainAxisAlignment": "spaceBetween",
+          "crossAxisAlignment": "center",
+          "children": [
+            {
+              "type": "Text",
+              "data": "Categories",
+              "maxLines": 3,
+              "overflow": "ellipsis",
+              "style": {
+                "fontSize": "12.s",
+                "fontWeight": "w800"
+              }
+            },
+            {
+              "type":"SizedBox",
+              "height":"20"
+            },
+            {
+              "type": "Text",
+              "data": "See All",
+              "maxLines": 3,
+              "overflow": "ellipsis",
+              "style": {
+                "color": "#2EA270",
+                "fontSize": "8.s",
+                "fontWeight": "w600"
+              }
             }
-          },
-          {
-            "type": "Text",
-            "data": "See All",
-            "maxLines": 3,
-            "overflow": "ellipsis",
-            "style": {
-              "color": "#2EA270",
-              "fontSize": "10.s",
-              "fontWeight": "w600"
+          ]
+        }
+      },
+      {
+        "type": "Container",
+        "width": "90.w",
+        "height": "15.h",
+        "margin": "10,10,0,0",
+        "child": {
+          "type": "ListView",
+          "scrollDirection": "horizontal",
+          "children": [
+            {
+              "type": "CircularItem",
+              "text": "Breakfast",
+              "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/breakfast.png?alt=media&token=db70db25-c909-408d-a8f7-61baed42bbf6"
+            },
+            {
+              "type": "CircularItem",
+              "text": "Lunch",
+              "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/lunch.png?alt=media&token=75f5423f-dd7a-4344-a62f-098e0de49c5a"
+            },
+            {
+              "type": "CircularItem",
+              "text": "Dinner",
+              "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/dinner.png?alt=media&token=c9f6de75-aaff-4369-aecf-1feefcbe2348"
+            },
+            {
+              "type": "CircularItem",
+              "text": "Vegan",
+              "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/vegan.png?alt=media&token=caf2a6f9-e992-4c7d-91aa-a35ec1643b5d"
+            },
+            {
+              "type": "CircularItem",
+              "text": "Meat Based",
+              "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/meat_based.png?alt=media&token=7bb2c486-defa-453a-80cf-d3b5b7dcad06"
+            },
+            {
+              "type": "CircularItem",
+              "text": "Salads",
+              "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/salad.png?alt=media&token=87d89340-74ac-4639-955a-e41c7c8be6d9"
             }
-          }
-        ]
+          ]
+        }
       }
-    },
-    {
-      "type": "Container",
-      "width": "90.w",
-      "height": "18.h",
-      "margin": "15,10,0,0",
-      "child": {
-        "type": "ListView",
-        "scrollDirection": "horizontal",
-        "children": [
-          {
-            "type": "CircularItem",
-            "text": "Breakfast",
-            "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/breakfast.png?alt=media&token=db70db25-c909-408d-a8f7-61baed42bbf6"
-          },
-          {
-            "type": "CircularItem",
-            "text": "Lunch",
-            "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/lunch.png?alt=media&token=75f5423f-dd7a-4344-a62f-098e0de49c5a"
-          },
-          {
-            "type": "CircularItem",
-            "text": "Dinner",
-            "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/dinner.png?alt=media&token=c9f6de75-aaff-4369-aecf-1feefcbe2348"
-          },
-          {
-            "type": "CircularItem",
-            "text": "Vegan",
-            "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/vegan.png?alt=media&token=caf2a6f9-e992-4c7d-91aa-a35ec1643b5d"
-          },
-          {
-            "type": "CircularItem",
-            "text": "Meat Based",
-            "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/meat_based.png?alt=media&token=7bb2c486-defa-453a-80cf-d3b5b7dcad06"
-          },
-          {
-            "type": "CircularItem",
-            "text": "Salads",
-            "image": "https://firebasestorage.googleapis.com/v0/b/nymble-3e640.appspot.com/o/salad.png?alt=media&token=87d89340-74ac-4639-955a-e41c7c8be6d9"
-          }
-        ]
-      }
-    }
-  ]
+    ]
+  }
 }''';
 }

@@ -53,7 +53,7 @@ class BannerCarouselWidgetBuilder extends WidgetParser {
                 Text(
                   title,
                   style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 12.sp,
                       fontWeight: FontWeight.w800,
                       color: Theme.of(buildContext).colorScheme.onSurface),
                 ),
